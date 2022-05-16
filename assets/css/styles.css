@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.mainsite {
+  display: flex;
+  flex-direction: row;
+  width: 99%; 
+  height: 100%;
+}
+
+.leftbox {
+  display: flex;
+  align-items: center;
+
+  width: 24%;
+  height: 5%;
+  padding-right: 1em;
+  margin-right: 1em;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: lightslategray;
+}
+.leftbox img{
+    display: flex;
+    align-items: flex-end;
+    width: 10%;
+    border-radius: 2em;
+}
+.name-user {
+    display: flex;
+    justify-content: center;
+    width: 80%;    
+    align-items: center;
+
+
+  }
+.icon-arrangement-user{
+    display: flex;
+    width: 20%;
+
+    justify-content: flex-end;
+}
+
+.rightbox {
+  display: flex;
+  align-items: flex-start;
+  width: 75%;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+
