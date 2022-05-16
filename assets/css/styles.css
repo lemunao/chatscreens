@@ -8,14 +8,16 @@ body {
 }
 .mainsite {
   display: flex;
-  flex-direction: row;
   width: 99%; 
   height: 100%;
+  background-color: #FFF;
 }
 
-.leftbox {
+.box {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  
 
   width: 24%;
   height: 5%;
@@ -27,7 +29,13 @@ body {
   border-width: 1px;
   border-color: lightslategray;
 }
-.leftbox img{
+
+.buttoncharacteristics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box img{
     display: flex;
     align-items: flex-end;
     width: 10%;
