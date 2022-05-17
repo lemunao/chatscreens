@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   border-color: #e8ebe4;
 }
 html,
@@ -78,7 +76,7 @@ body {
 }
 
 .card-complement {
-  width: 100% !important;
+  width: 80% !important;
   border-top-style: solid;
   border-width: 1px;
 }
@@ -87,21 +85,21 @@ body {
 
 .right-menu {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border-left-style: solid;
-  border-width: 1px;
   background-color: aliceblue;
-  width: 80%;
+
+  width: 90%;
 }
-.right-menu div img {
+.right-menu section img {
   display: flex;
   justify-content: center;
-  align-items: center;  
   width: 30%;
 }
 
-h1, h3{
-display: flex;
-justify-content: center;
+h1,
+h3 {
+  display: flex;
+  justify-content: center;
 }
