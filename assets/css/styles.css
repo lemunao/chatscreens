@@ -17,19 +17,18 @@ body {
 
 .mainsite {
   display: flex;
-  width: 100%;
-  height: 100%;
   border-width: 1px;
 }
 
 /*Page division*/
 .left-menu {  
-  width: 27%;
+  width: 30%;
+  height: 100%;
 }
 .right-menu {
   display: flex;
   background-color: aliceblue;
-  width: 72%;
+  width: 69%;
 }
 
 .name-user {
@@ -48,7 +47,7 @@ body {
   display: flex;
   justify-content: flex-start;
   font-size: 1em;
-  padding-left: 20% !important;
+  
   margin: 0%;
 }
 .status {
