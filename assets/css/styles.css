@@ -1,3 +1,9 @@
+/*Responsive Flex try*/
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 * {
   border-color: #e8ebe4;
 }
@@ -16,10 +22,16 @@ body {
   border-width: 1px;
 }
 
-/*Left menu css*/
-.left-menu {
-  width: 30%;
+/*Page division*/
+.left-menu {  
+  width: 27%;
 }
+.right-menu {
+  display: flex;
+  background-color: aliceblue;
+  width: 72%;
+}
+
 .name-user {
   display: flex;
   align-items: center;
@@ -41,15 +53,14 @@ body {
 }
 .status {
   display: flex;
-  justify-content: flex-start;
-  font-size: 0.7em;
-  padding-left: 20% !important;
+  justify-content: center !important;
+  font-size: 0.6em;
   margin: 0%;
   font-weight: lighter;
 }
 
 .name-user img {
-  width: 20%;
+  width: 10%;
   border-radius: 2em;
   margin-right: 0.4em;
 }
@@ -83,22 +94,30 @@ body {
 
 /*Right menu css*/
 
-.right-menu {
-  display: flex;
+.right-page-control{
+  display: flex;  
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  border-left-style: solid;
-  background-color: aliceblue;
-
-  width: 90%;
+  
 }
-.right-menu section img {
-  display: flex;
+
+.right-page-control div{
+  display: flex;  
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  width: 30%;
+  
+}
+.right-page-control img {
+  width: 30%; 
+  display: flex;  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-h1,
+.right-page-control h1,
 h3 {
   display: flex;
   justify-content: center;
