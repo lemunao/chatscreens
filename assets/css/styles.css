@@ -88,8 +88,7 @@ body {
 }
 .icon-arrangement-user {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  justify-content: flex-end;  
   width: 39%;
   margin-left: 0.5em;
 }
