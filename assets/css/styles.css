@@ -17,13 +17,14 @@ body {
   padding-bottom: 0.3em;
   background-color: #e8ebe4;
   width: 100%;
-  height: 100vh;
+  
 }
 
 .mainsite {
   display: flex;
   border-width: 1px;
   width: 100%;
+  height: 100vh;
   
 }
 
