@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 @font-face {
-  font-family: 'Queens Park';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/queens-park.woff') format('woff');
+  font-family: "Queens Park";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/queens-park.woff")
+    format("woff");
   font-style: normal;
   font-weight: 400;
 }
@@ -17,7 +18,6 @@ body {
   padding-bottom: 0.3em;
   background-color: #e8ebe4;
   width: 100%;
-  
 }
 
 .mainsite {
@@ -25,15 +25,13 @@ body {
   border-width: 1px;
   width: 100%;
   height: 100vh;
-  
 }
 
 /*Page division*/
-.left-menu {  
+.left-menu {
   display: flex;
   flex-wrap: wrap;
   width: 29%;
- 
 }
 .right-menu {
   display: flex;
@@ -57,7 +55,6 @@ body {
   display: flex;
   justify-content: flex-start;
   font-size: 1em;
-  
   margin: 0%;
 }
 .status {
@@ -66,6 +63,22 @@ body {
   font-size: 0.6em;
   margin: 0%;
   font-weight: lighter;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  border-bottom-style: solid ;
+  border-width: 1px;
+  padding: 10%;
+}
+.button button{
+  background-color: #a491d2;
+  color: white;  
+  width: 50%;
 }
 
 .name-user img {
@@ -93,7 +106,6 @@ body {
 
 .btn-primary {
   background-color: #a491d2 !important;
-  
 }
 
 .card-complement {
@@ -106,24 +118,22 @@ body {
 
 /*Right menu css*/
 
-.right-page-control{
-  display: flex;  
+.right-page-control {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  
 }
 
-.right-page-control div{
-  display: flex;  
+.right-page-control div {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  
 }
 .right-page-control img {
-  width: 30%; 
-  display: flex;  
+  width: 30%;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
